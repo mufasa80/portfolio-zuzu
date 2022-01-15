@@ -1,0 +1,16 @@
+*{
+    align-items: center;
+background-color: rgb(56, 56, 56);   background-size: cover;
+    text-align: left;
+    margin: 10px;
+    border-radius: 30px;
+    size: 50px;
+    text-align: center;
+    border-color: aliceblue;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+};
+
+button {
+    size: 200px;
+};

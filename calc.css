@@ -1,0 +1,145 @@
+
+
+h1{color: rgb(81, 255, 0);
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 90px;
+}
+
+body{background-image: url(https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+max-height: px;
+}
+
+.container
+        {background-color:rgb(255, 255, 255);
+        width: 3000;
+        margin-top: 50px;
+        height: 610px;
+        margin-bottom: 50px;
+        border: 5px solid transparent;
+        box-shadow: 0px 0px 43px 17px  rgb(0, 255, 42);
+        border-image-slice: 1;
+        
+        max-width: 400px;
+        margin: 10vh auto 0 auto;
+       
+      }
+      
+    
+    
+    #display {
+        text-align: right;
+        height: 70px;
+        line-height: 70px;
+        padding: 16px 8px;
+        font-size: 25px;
+    }
+    
+    .buttons {
+        display: grid;
+        border-bottom: 1px solid rgb(149, 149, 149);
+        border-left: 1px solid rgb(148, 148, 148);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .buttons > div {
+        border-top: 1px solid rgb(161, 161, 161);
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+    
+    .button {
+        border: 0.5px solid rgb(122, 122, 122);
+        line-height: 100px;
+        text-align: center;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+    #equal {
+        background-color: rgb(51, 255, 0);
+        color: white;
+    }
+    
+    .button:hover {
+        background-color: #33ff00;
+        color: rgb(0, 238, 255);
+        transition: 0.5s ease-in-out;
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        }
+        
+        body
+        {
+        min-height: 200vh;
+        
+        }
+        header
+        {
+        position: fixed;
+        top: 0ch;
+        left: 0ch;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.6s;
+        padding: 40px 100px;
+        z-index:10000 ;
+        }
+        header.sticky
+        {
+        padding: 5px 100px;
+        background: rgb(255, 255, 255)
+        }
+        header .logo
+        {
+        
+            position:relative ;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 2em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 0.6s;
+        }
+        header ul
+        {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        header ul li
+        {
+            position: relative;
+            list-style: none;
+        }
+        header ul li a
+        {
+        position: relative;
+        margin: 0 15px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        letter-spacing: 2px;
+        font-weight: 500px;
+        transition: 0.6s;
+        }
+        .banner
+        {
+            position:relative ;
+            width: 100%;
+            height: 100vh;
+            background-size: cover; 
+        }
+        header.sticky .logo,
+        header.sticky ul li a
+        {
+        color: rgb(0, 0, 0)};
+        
+        
