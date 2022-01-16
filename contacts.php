@@ -31,6 +31,26 @@
         let header =document.querySelector("header");
         header.classList.toggle("sticky", window.scrollY > 0) } )</script>;
      <div class="container">
+
+<div class=contact name="contact">
+     <?php
+                    try {
+                        $db = new PDO("mysql:host=localhost;dbname=portfolio","root", "");
+                        $query = $db->prepare ("SELECT * FROM contactgegevens");
+                        $query->execute();
+                        $result = $query->fetchAll(PDO::FETCH_ASSOC);
+                        echo "<table>";
+                        foreach ($result as &$data) {
+                            echo "<td>" . $data ["account"] . " ";
+                            echo "<td>" . $data ["volgers"] . "<br>";
+                            echo "</tr>";
+                        }
+                        echo "</table>";
+                    } catch(PDOException $e) {
+                        die("Error!: " . $e->getMessage());
+                    }
+                ?>
+</div>
       <div class="text"></div>
     </head>
     <div class="contactForm">
@@ -78,3 +98,6 @@
   </div>
     </h1>
     <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
