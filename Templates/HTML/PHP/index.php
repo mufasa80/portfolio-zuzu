@@ -9,18 +9,18 @@
 
     <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="voorblad.css">
+    <link rel="stylesheet" href="/Public/CSS/CSS/voorblad.css">
     <title>portfolio nieuw</title>
     </head>
 
     <body>
       <header>
-        <a href="voorblad.html" class="logo"> START</a>
+        <a href="/Templates/HTML/HTML/voorblad.html" class="logo"> START</a>
         <ul>
-          <li><a href="aboutMe.html">About me</a></li>
-          <li><a href="contacts.php">Contacts</a></li>
-          <li><a href="myHobbies.html">My hobbies</a></li>
-          <li><a href="myProjects.html">My projects</a></li>
+          <li><a href="/Templates/HTML/HTML/aboutMe.html">About me</a></li>
+          <li><a href="/Templates/HTML/PHP/contacts.php">Contacts</a></li>
+          <li><a href="/Templates/HTML/HTML/myHobbies.html">My hobbies</a></li>
+          <li><a href="/Templates/HTML/HTML/myProjects.html">My projects</a></li>
         </ul>
       </header>
       <section class="banner"></section>
@@ -33,10 +33,10 @@
 <div allcards>
         <div class="container">
 
-          <a href="aboutMe.html">
+          <a href="/Templates/HTML/HTML/aboutMe.html">
           <div class="card">
             <div class="imgBx">
-              <img src="img/its_all_about_me-hd_wallpapers (1).jpg">
+              <img src="/img/its_all_about_me-hd_wallpapers (1).jpg">
               </div>
             <div class="content">
             </a>
@@ -49,10 +49,10 @@
 
         
         
-        <a href="zuzu.php">
+        <a href="/Templates/HTML/PHP/zuzu.php">
         <div class="card">
           <div class="imgBx">
-            <img src="img/maxresdefault.jpg">
+            <img src="/img/maxresdefault.jpg">
             </div>
           <div class="content">
           </a>
@@ -62,10 +62,10 @@
           
       </div>
     </div>
-      <a href="contacts.php">
+      <a href="/Templates/HTML/PHP/contacts.php">
       <div class="card">
         <div class="imgBx">
-          <img src="img/Contact-Us.jpg">
+          <img src="/img/Contact-Us.jpg">
           </div>
         <div class="content">
         </a>
@@ -76,10 +76,10 @@
           </p>
       </div>
     </div>
-      <a href="myHobbies.html">
+      <a href="/Templates/HTML/HTML/myHobbies.html">
       <div class="card">
         <div class="imgBx">
-          <img src="img/5463491.jpg">
+          <img src="/img/5463491.jpg">
           </div>
         <div class="content">
           <h3> </h3>
@@ -91,10 +91,10 @@
     </div>
 
 
-    <a href="myProjects.html">
+    <a href="/Templates/HTML/HTML/myProjects.html">
       <div class="card">
         <div class="imgBx">
-        <img src="img/php-code-stock-photo.jpg" alt="">
+        <img src="/img/php-code-stock-photo.jpg" alt="">
           </div>
         <div class="content">
         </a>
@@ -111,7 +111,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<script src="voorblad.js"></script>
   </body>
 
 

@@ -7,11 +7,11 @@
 <!DOCTYPE html> 
 <html lang='en'> 
 
-    <img src='img/2163026.jpg' alt='photo of me' /> 
+    <img src='/img/2163026.jpg' alt='photo of me' /> 
 
 </html> 
 
-<link rel="stylesheet" href="zuzu.css">
+<link rel="stylesheet" href="/Public/CSS/CSS/zuzu.css">
 <div wrapper>
     <p style="font-family: Candara">Wat wilt u bestellen?</p>
     <div class="order">

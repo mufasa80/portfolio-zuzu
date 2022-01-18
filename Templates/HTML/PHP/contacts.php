@@ -9,18 +9,18 @@
 
     <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="/Public/CSS/CSS/contacts.css">
     <title>portfolio nieuw</title>
     </head>
 
     <body>
       <header>
-        <a href="voorblad.html" class="logo"> START</a>
+        <a href="/Templates/HTML/HTML/voorblad.html" class="logo"> START</a>
         <ul>
-          <li><a href="aboutMe.html">About me</a></li>
-          <li><a href="contacts.php">Contacts</a></li>
-          <li><a href="myHobbies.html">My hobbies</a></li>
-          <li><a href="myProjects.html">My projects</a></li>
+          <li><a href="/Templates/HTML/HTML/aboutMe.html">About me</a></li>
+          <li><a href="/Templates/HTML/PHP/contacts.php">Contacts</a></li>
+          <li><a href="/Templates/HTML/HTML/myHobbies.html">My hobbies</a></li>
+          <li><a href="/Templates/HTML/HTML/myProjects.html">My projects</a></li>
         </ul>
         
       </header>

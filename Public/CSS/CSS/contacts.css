@@ -77,18 +77,18 @@
     header.sticky ul li a
     {
     
-        color: rgb(54, 98, 104);
+        color: rgb(0, 0, 0);
     }
     
     
 
     .container
-    {background-color:rgb(92, 79, 79);
+    {background-color:rgb(223, 255, 164);
     width: 3000;
     margin-top: 50px;
     height: 1000px;
     margin-bottom: 50px;
-    box-shadow: 10px 5px 5px rgb(0, 195, 255);
+    box-shadow: 10px 5px 5px rgb(0, 168, 219);
     border-radius: 50px;
     text-align: center;
     
